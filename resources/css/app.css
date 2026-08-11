@@ -1,0 +1,48 @@
+@import '@fontsource/ibm-plex-sans-arabic/400.css';
+@import '@fontsource/ibm-plex-sans-arabic/500.css';
+@import '@fontsource/ibm-plex-sans-arabic/600.css';
+@import '@fontsource/ibm-plex-sans-arabic/700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose-karama {
+    @apply text-slate-700 leading-8;
+}
+.prose-karama h2 {
+    @apply text-xl font-bold text-karama-navy-dark mt-8 mb-3;
+}
+.prose-karama h3 {
+    @apply text-lg font-bold text-karama-navy-dark mt-6 mb-2;
+}
+.prose-karama p {
+    @apply mb-4;
+}
+.prose-karama ul {
+    @apply list-disc pr-6 mb-4 space-y-1;
+}
+.prose-karama ol {
+    @apply list-decimal pr-6 mb-4 space-y-1;
+}
+.prose-karama a {
+    @apply text-karama-blue-dark underline;
+}
+.prose-karama strong {
+    @apply font-bold text-karama-navy-dark;
+}
+.prose-karama code {
+    @apply bg-karama-surface-100 rounded px-1.5 py-0.5 text-sm;
+}
+.prose-karama blockquote {
+    @apply border-s-4 border-karama-blue ps-4 pe-2 py-1 italic text-slate-600;
+}
+.prose-karama table {
+    @apply w-full border-collapse text-sm mb-4 overflow-hidden rounded-lg border border-slate-200;
+}
+.prose-karama th {
+    @apply bg-karama-surface-100 text-start px-3 py-2 font-bold text-karama-navy-dark border border-slate-200;
+}
+.prose-karama td {
+    @apply px-3 py-2 border border-slate-200;
+}
