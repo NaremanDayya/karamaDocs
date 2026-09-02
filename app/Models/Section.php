@@ -12,6 +12,7 @@ class Section extends Model
     const KEY_FAQ = 'faq';
     const KEY_ESSENTIALS = 'essentials';
     const KEY_QUALITY = 'quality';
+    const KEY_QUALITY_CHARTER = 'quality-charter';
     const KEY_LEARN_TASKS = 'learn-tasks';
     const KEY_PROJECT_GUIDES = 'project-guides';
     const KEY_RESOURCES = 'resources';

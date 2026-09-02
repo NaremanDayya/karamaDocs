@@ -46,6 +46,13 @@ class SectionSeeder extends Seeder
                 'sort_order' => 5,
             ],
             [
+                'key' => Section::KEY_QUALITY_CHARTER,
+                'title_ar' => 'ميثاق الجودة والسياسات',
+                'description_ar' => 'الالتزامات المتبادلة بين كرامة والموسِمين، وسياسات الأداء والشكاوى.',
+                'icon' => 'document-text',
+                'sort_order' => 5.5,
+            ],
+            [
                 'key' => Section::KEY_LEARN_TASKS,
                 'title_ar' => 'تعلم المهام',
                 'description_ar' => 'مسارات تعلم تفصيلية لكل نوع من مهام التوسيم التي نقدمها.',

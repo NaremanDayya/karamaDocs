@@ -20,6 +20,7 @@ Route::get('/faq', [FaqController::class, 'index'])->name('faq');
 foreach ([
     Section::KEY_ESSENTIALS => 'essentials',
     Section::KEY_QUALITY => 'quality',
+    Section::KEY_QUALITY_CHARTER => 'quality-charter',
     Section::KEY_LEARN_TASKS => 'learn-tasks',
     Section::KEY_RESOURCES => 'resources',
     Section::KEY_UPDATES => 'updates',
